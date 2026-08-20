@@ -181,9 +181,6 @@ header:focus-within .depth2 {
 
 }
 
-.lang-list {
-    display: none;
-}
 
 .login>a {
     position: relative;
@@ -217,13 +214,46 @@ header:focus-within .depth2 {
 
 }
 
+.lang-btn .lang-list {
+    position: absolute;
+    right:0;
+    background: #fff;
+    color: var(--typo-color);
+    width: 76px;
+    border-radius:8px;
+    flex-direction: column;
+    display:flex;
+    gap:10px;
+    padding:13px 22px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+
+
+
+/* .lang-btn .lang-list>li a {
+} */
+
+
+.lang-btn .lang-list>li a:hover {
+    
+    color:#222;
+    font-weight:700;
+    
+}
+
+
+.lang-btn:hover .lang-list {
+    display: block;
+    flex-direction: column;
+    display:flex;
+    gap:10px;
+}
+
 .main-menu {
     display: flex;
     position: sticky;
-
     gap: 100px;
-
-
 }
 
 

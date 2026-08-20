@@ -255,13 +255,13 @@ section>.inner {
 }
 
 .main-event {
-    /* padding: 66px 0;
+    padding: 66px 0;
     display: flex;
     gap: 44px;
-    align-items: stretch; */
-    display:grid;
+    align-items: stretch;
+    /* display:grid;
     grid-template-columns:repeat(4,minmax(0,1fr));
-    gap:44px;
+    gap:44px; */
 
 }
 

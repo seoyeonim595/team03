@@ -209,7 +209,7 @@ header:focus-within .depth2 {
     width: 24px;
     height: 24px;
     content: "";
-    background: url(../museum_img/icon/arrow-up.png);
+    background: url(../images/icon/arrow-down-b.svg);
     background-size:contain;
     
 }

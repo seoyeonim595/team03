@@ -285,6 +285,10 @@ section>.inner {
         padding: 20px 16px;
     }
 
+    .event-title {
+        -webkit-line-clamp: 2;
+    }
+
     .main-event {
         gap: 36px 12px;
         padding: 40px 0;
@@ -329,10 +333,18 @@ section>.inner {
 
     .event-ing,
     .event-region {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
         height: 28px;
+        padding: 0 8px;
+
         font-size: 13px;
-        padding: 3px 8px;
+        line-height: 1;
+
         white-space: nowrap;
+        flex: 0 0 auto;
     }
 
     .event-ing {
@@ -348,7 +360,9 @@ section>.inner {
     }
 
     .event-title {
-        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
     }
 
     .event-date {
